@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mundo Gelado</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+
+</head>
+
+<body>
+
+    <!-- NAV BAR-->
+    <nav class='nav'>
+      <ul class="nav__list">
+        <li class='nav__link'>
+            <a href="#sobre">Sobre</a>
+        </li>
+        <li class='nav__link'>
+            <a href="#destinos">Destinos</a>
+        </li>
+        <li class='nav__link'>
+            <a href="#contato">Contato</a>
+        </li>
+            <img class='nav-burguer' src='img/burguer.png' alt='foto burguer nav'>
+      </ul>
+    </nav>
+
+    <!--HEADER-->
+    <header class='header'>
+      <h1 class='header__title'> Mundo Gelado </h1>
+      <h2 class='header__text'>A agencia de viagem que te leva aos lugares <br> mais congelantes do planeta.</h2>
+      <a class='header__btn'href='#' >Quero saber mais</a>
+    </header>
+
+    <section id='sobre' class='section'>
+      <h3 class='section__title'>A agência pelo mundo</h3>
+      <p class='section__text'>Nosso diferencial é te levar para conhecer as mais lindas e geladas paisagens no nosso planeta, com conforto e segurança. </p>
+      <p class='section__text'>Nossos pacotes são completos e oferecem uma experiência inesquecível para você.</p>
+      <p class='section__text'>Veja abaixo nossos destinos disponíveis, e se tiver alguma dúvida ou sugestão, entre em contato com a gente.</p>
+    </section>
+
+
+    <section id="destinos" class='destinos1'>
+      <div class='destinos1__img-grande'>
+          <img src="img/siberia-1.jpg" alt="foto da siberia" class="destinos1__img">
+      </div>
+      <div class="destinos1__text-grande">
+          <h4  class='siberia'>Sibéria</h4>
+          <p class="destinos1__texto">O clima varia entre o clima polar e o clima continental. Na Sibéria situa-se o local habitado mais frio do mundo, a aldeia de Oymyakon.</p>
+      </div>
+    </section>
+
+
+
+    <section class="destinos2"> 
+
+        <div class='groelandia__img-pequena'>
+            <img class='destinos2__img img-responsive' src='img/groenlandia-1.jpg' alt='foto da groelandia'>
+        </div>
+
+        <div class='groelandia__text-caixa'>
+          <h4 class='groelandia__titulo'>Groelândia</h4>
+          <p class='groelandia__text'>A Groenlândia é a maior ilha do mundo e tem mais de 44 000 km de linha de costa. A população é escassa, confinada a pequenos povoados na costa. A ilha tem a segunda maior reserva de gelo do mundo, apenas ultrapassada pela Antártida.</p>
+          <hr class='hr-groelandia'>
+        </div>
+
+    </section>
+
+    <section class="destinos3"> 
+
+        <div class='antartida__text-caixa'>
+            <h4 class='antartida'>Antártida</h4>
+            <p class='antartida__text'>É o continente mais frio, mais seco, com a maior média de altitude e de maior índice de ventos fortes do planeta.[1] A temperatura mais baixa da Terra (-89,2 °C) foi registrada na Antártica, sendo a temperatura média na costa, durante o verão, de -10 °C; no interior do continente, é de -40 °C.</p>
+            <hr class='hr-antartida'>
+        </div>
+
+        <div class='antartida__img-pequena'>
+            <img class='antartida__img img-responsive' src='img/antartida-1.jpg' alt='foto da groelandia'>
+        </div>
+    
+    </section>
+
+
+    <section class='contato'>
+
+
+        <img src='img/icone-localizacao.png'alt='icone de localização'>
+        <p>Aonde Vamos</p>
+        <p class='iframe'>Avenida Paulista 1450, SP</p>
+        <iframe src="https://maps.google.com/maps?width=80%&amp;height=300&amp;hl=en&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Embed Google Map</a></iframe>
+
+        <p>Fale com a gente</p>
+
+        <div class="form">
+            <form class='form-contato' id="contato">
+                <label>Nome Completo</label>
+                <input type='text'placeholder='Fulano de Tal'> 
+                <label>Email</label>
+                <input type='email'placeholder='fulano@gmail.com'>
+                <label>Telefone</label>
+                <input type='phone' placeholder="11 81 9864522">
+                <label>Mensagem</label>
+                
+                <input type='text' placeholder="Oi!" class='oi'>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <hr class='hr-form'>
+                <a href='#' class='form-btn' > Enviar </a>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+      <div class="text-center">
+        <a href="tel:111234-5678">Telefone: (11) 1234-5678</a>
+      </div>  
+      <div class="social">
+            <a href="#" class="">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="">
+              <i class="fab fa-youtube"></i>
+            </a>
+      </div>
+      <div class="footer">
+        <p>Copyright © Agência Mundo gelado 2018</p>
+      </div>
+
+
+    </footer>
+        
+
+    
+
+
+
+
+</body>
+
+</html>

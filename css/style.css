@@ -1,0 +1,525 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito";
+  border: 0px;
+  margin: 0px;
+}
+
+
+/*COMEÇO NAV BAR*/
+nav {
+  position:fixed;
+  background-color:#a0bed0;
+  display:flex;
+  justify-content: flex-end;
+  width: 100vw;
+  padding: 15px;
+  z-index: 1;
+}
+
+.nav-burguer {
+  display:none;
+}
+
+.nav__list {
+  display:flex;
+  justify-content: space-around;
+  margin-right: 15%;
+}
+
+.nav__link {
+  padding: 0;
+  list-style: none;
+  margin-right: 15%;
+}
+li a {
+  text-decoration: none;
+  color:white;
+  font-size: 17px;
+}
+/*FIM NAV BAR*/
+
+header {
+  background-image: linear-gradient(to bottom, rgba(22, 22, 22, .1) 0, rgba(22, 22, 22, .5) 75%, #161616 100%), url(../img/foto-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  height:100vh;
+  text-align:center;
+  filter: grayscale(100%);
+  transition: all 3s;
+}
+header:hover{
+  filter: grayscale(0%);
+}
+
+.header h1{
+  padding-top: 8%;
+  font-family: 'Varela round';
+  font-size: 105px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  line-height: 2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0));
+  background-image:linear-gradient(top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.header__text {
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 2em;
+  color: rgba(255, 255, 255, .5);
+  background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0));
+  background-image:linear-gradient(top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-background-clip: text;
+}
+
+.header__btn {
+  text-decoration:none;
+  color: rgba(255, 255, 255, .9);
+  background-color:  #829dad;
+  padding: 1.5em 2.3em;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  font-size: 13px;
+  border-radius: .5em;
+}
+.header__btn:hover{
+  background-color:#36b0e0;
+}
+
+.section{
+  padding: 3em 8em;
+  display:flex;
+  flex-wrap:wrap;
+  flex-flow: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #161616 0, rgba(22, 22, 22, .9) 75%, rgba(22, 22, 22, .8) 100%);
+  justify-content: center;
+}
+.section__title {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.section__text{
+  color: rgba(255,255,255,.5);
+  margin: 0;
+  line-height: 1.5em;
+}
+
+
+/*DESTINOS*/
+
+.destinos1{
+  display: flex;
+  justify-content: center;
+  padding: 5% 10%;
+}
+
+.destinos1__img {
+  width: 200vw;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  filter: grayscale(100%);
+  transition:all 2s;
+}
+
+.destinos1__img:hover{
+    filter: grayscale(0%);
+}
+
+.destinos1__text-grande {
+  border-left: .5em solid #a0bed0;
+  align-self: center;
+  padding-left:2em; 
+}
+
+.destinos1__text-grande p, .siberia {
+  margin:0;
+  font-weight: 500;
+  color: rgba(0,0,0,.5);
+}
+
+.destinos1__text-grande h4 {
+  font-size: 1.5em;
+  color: rgba(0,0,0,.8);
+  margin-bottom: 3%;
+}
+
+
+
+.destinos2, .destinos3 {
+  display:flex;
+  justify-content: center;
+}
+.antartida__img {
+  width: 555px;
+  height: 370px;
+  filter:grayscale(100%);
+  transition: all 1s;
+}
+.destinos2__img {
+  width: 555px;
+  height: 370px;
+  filter:grayscale(100%);
+  transition: all 1s;
+  
+}
+.antartida__img:hover{
+  filter:grayscale(0%);
+}
+.destinos2__img:hover{
+  filter:grayscale(0%);
+}
+
+.antartida__text-caixa, .antartida__img-pequena, .groelandia__text-caixa, .groelandia__img-pequena {
+  width: 555px;
+  height: 370px;
+}
+.groelandia__titulo{
+  color: #F3F3F3;
+  padding: 1em 1em 0em 1em;
+  margin-bottom:0;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size:18px;
+}
+ .groelandia__text {
+ text-align: left;
+ color: grey;
+ padding: 0em 1em;
+ margin-top :0;
+ 
+}
+
+.hr-antartida {
+  
+  margin-right: 15px;
+  border: 0;
+  border-top: 4px solid #2698B7;
+  width:30%;
+}
+.hr-groelandia {
+  
+  margin-left: 15px;
+  border: 0;
+  border-top: 4px solid #2698B7;
+  width:30%;
+}
+.antartida {
+  color: #F3F3F3;
+  padding: 0em 1em;
+  margin-bottom:0;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size:18px;
+}
+.antartida__text {
+  padding: 0em 1em;
+  margin-top :0;
+}
+ .antartida__text-caixa{
+  text-align:right;
+  color: grey;
+  padding: 4em 1em;
+  background-color: black;
+}
+
+.groelandia__text-caixa {
+  background-color: black;
+  padding: 4em 1em;
+}
+.destinos3{
+  margin-bottom:8%;
+}
+/**CONTATO **/ 
+
+.contato {
+  background: linear-gradient(to bottom, rgba(22, 22, 22, .1) 0, rgba(22, 22, 22, .5) 75%, #161616 100%), url(../img/foto-footer.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contato img {
+  padding-top: 3em;
+  width: 2.5%;
+}
+
+.contato p {
+  margin: 1em;
+  color: white;
+  font-size: 20px;
+}
+
+iframe{
+  width:750px;
+  height: 450px;
+}
+
+.iframe{
+  display:none;
+}
+
+/*FORMULARIO */
+
+.form {
+  width:80%;
+  display: flex;
+  justify-content: flex-start;
+}
+.form-contato{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+label{
+  color:#F3F3F3;
+  font-size: 20px;
+  line-height: 2em;
+}
+input {
+  line-height: 3em;
+  font-size: 20px;
+  color: #A1A2A3;
+  width:80vw;
+  border-bottom:1px solid #E9ECEF;
+  border-top:none;
+  border-right:none;
+  border-left:none;
+  background-color:transparent;
+}
+.oi {
+  border:none;
+}
+
+.hr-form{
+ color: #E9ECEF;
+ width: 80vw;
+}
+
+.form-btn {
+  font-size: 13px;
+  text-decoration: none;
+  color: #EBF7FC;
+  background-color: #829dad;
+  display:block;
+  margin: 1em auto;
+  padding: 1.5em 2.5em;
+  border-radius: .5em;
+  letter-spacing: 2px;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  text-transform: uppercase;
+}
+
+.form-btn:hover{
+  background-color: #36B0E0;
+}
+
+/*FOOTER*/
+
+footer {
+  padding-top: 10em;
+  padding-bottom: 5em;
+  width: 100vw;
+  background-color:#161616;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.social a, .text-center a {
+  text-decoration:none;
+  color:  #829dad;
+  line-height: 5em;
+}
+.text-center a:hover {
+color:#385A58;
+}
+.social a:hover {
+  color:#385A58;
+  }
+
+.social a{
+  text-align: center;
+  height: 5em;
+  width: 5em;
+  margin:.5em;
+  border-radius: 100%;
+  color: rgba(255, 255, 255, .3);
+  }
+
+.footer {
+  color: #5E5E5E;
+  font-size: 15px;
+  font-weight: 600;
+  }
+
+  /*RESPONSIVO*/ 
+
+  @media (max-width:1024px){
+    .header h1{
+      padding-top: 15%;
+      font-size: 80px;
+      line-height: 1.5em;
+    }
+    header {
+      width: 100vw;
+      height:100vh;
+    }
+  }
+  @media (max-width: 768px) {
+    .header h1{
+      padding-top: 15%;
+      font-size: 75px;
+      line-height: 1.5em;
+    }
+    header {
+      width: 100vw;
+      background-size: cover;
+      height:100vh;
+    }
+    .destinos2, .destinos3{
+      margin: auto;
+      padding: 0px;
+      width: 620px;
+    }
+    .img-responsive, .groelandia__img-pequena, .antartida__img-pequena {
+      width: 310px;
+      height: 210px;
+    }
+
+    .antartida__text-caixa {
+      font-size: 13px;
+      width: 310px;
+      height: 210px;
+      padding: 0em 1em;
+      margin-bottom: 4em;
+    }
+    .groelandia__text-caixa {
+      font-size: 13px;
+      width: 310px;
+      height: 210px;
+      padding: 0em 1em;
+    }
+
+    iframe{
+      width: 650px;
+      height: 350px;
+    }
+    .iframe{
+      display:none;
+    }
+    
+  }
+
+  @media (max-width: 420px) {
+
+    .nav{
+      background: #fff;
+      padding: 0;
+    }
+
+    .nav__link{
+      display:none;
+    }
+    .nav-burguer {
+      display:block;
+      width: 25px;
+      height: 25px;
+      margin-right: 5%;
+    }
+    .header h1{
+      padding-top: 25%;
+      font-size: 45px;
+      line-height: 1.5em;
+    }
+    .header p{
+      line-height: 1.5em;
+      padding: 0 2em;
+    }
+    header {
+      width: 100vw;
+      background-size: cover;
+      height:100vh;
+    }
+    .header__text {
+      font-size: 18px;
+    }
+
+    .section{
+      padding: 2em 1.5em;
+    }
+    .destinos1{
+      flex-direction: column;
+    }
+
+   
+    .destinos1__text-grande {
+      text-align: center;
+      border-left: 0;
+      padding: 1em 1em;
+    }
+    .destinos1__text-grande p {
+      font-weight: 600;
+    }
+    
+    .hr-antartida, .hr-groelandia {
+      display: none;
+    }
+    
+    .destinos2, .destinos3{
+      margin: auto;
+      padding: 0px;
+      width: 350px;
+    }
+    .img-responsive, .groelandia__img-pequena, .antartida__img-pequena {
+      width: 310px;
+      height: 210px;
+    }
+
+    .antartida__text-caixa {
+      order:2;
+      font-size: 13px;
+      width: 310px;
+      height: 210px;
+      padding: 0em 1em;
+      margin-bottom:2em;
+    }
+    .groelandia__text-caixa {
+      font-size: 13px;
+      width: 310px;
+      height: 210px;
+      padding: 0em 1em;
+    }
+
+    iframe{
+      display:none;
+    }
+    .iframe {
+      display:block;
+    }
+    p.iframe{
+      color: black;
+      font-weight: 600;
+      margin:0;
+    }
+    .destinos2, .destinos3 {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 1em;
+    }
+    
+  }

@@ -431,7 +431,9 @@ color:#385A58;
       background: #fff;
       padding: 0;
     }
-
+    .section__text{
+      text-align:center;
+    }
     .nav__link{
       display:none;
     }
@@ -456,7 +458,7 @@ color:#385A58;
       height:100vh;
     }
     .header__text {
-      font-size: 18px;
+      font-size: 16px;
     }
 
     .section{

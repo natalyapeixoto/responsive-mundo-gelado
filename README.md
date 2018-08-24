@@ -1,5 +1,5 @@
 # responsive-mundo-gelado
 #### web responsive from scratch. 
-*HTML & CSS
+* HTML & CSS
 
 ### https://natalyapeixoto.github.io/responsive-mundo-gelado/

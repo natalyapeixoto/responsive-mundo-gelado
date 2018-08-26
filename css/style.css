@@ -64,8 +64,7 @@ header:hover{
   line-height: 2em;
   margin-top: 0px;
   margin-bottom: 0px;
-  background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0));
-  background-image:linear-gradient(top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: linear-gradient(to top, rgba(255, 255, 255, .9) 0, rgba(255, 255, 255, 0) 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -162,7 +161,6 @@ header:hover{
   justify-content: center;
 }
 .antartida__img {
-  width: 555px;
   height: 370px;
   filter:grayscale(100%);
   transition: all 1s;

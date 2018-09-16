@@ -1,5 +1,4 @@
-# responsive-mundo-gelado
-#### web responsive from scratch. 
-* HTML & CSS
+### First responsive web site made from scratch at {reprograma}
 
-### https://natalyapeixoto.github.io/responsive-mundo-gelado/
+##### HTML & CSS 
+
